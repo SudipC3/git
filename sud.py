@@ -1,3 +1,4 @@
-a=5
-b=6
-print(a+b)
+a=eval(input('a:'))
+b=eval(input('b:'))
+c = a + b
+print("Sum is",c))
