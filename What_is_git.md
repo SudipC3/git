@@ -24,12 +24,14 @@ system ( Git )
   4. Add your user name (Github Username) in Git
 
 
-        git config --global user.name "YourUsername"
+         
+                   git config --global user.name "YourUsername"
 
   5. Add your user emali (Github Email) in Git
 
 
-        git config --global user.mail "YourMail"
+                  git config --global user.mail "YourMail"
+
 
   6. If you want an extra protection on Github 
      then add a [SSH Key](ssh-key.md).
