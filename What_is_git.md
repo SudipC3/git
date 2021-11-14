@@ -22,7 +22,6 @@ Here some common git commands you should know
 
      git init
 
-![](img/git1.png)
   
 ### Adding username and email
 First you need to create an account on
@@ -36,5 +35,4 @@ To add your email
 
      git config --global user.mail "YourMail@example.com"
 
-![](img/git2.png)
 

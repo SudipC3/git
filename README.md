@@ -1,6 +1,5 @@
 # github-explore
-Beginners Welcome ! This is A test Repo for You !
-We Share Git Meterial With You for Learning Git and Github
+Beginners Welcome ! Thes repo helps You to learn Git and Github
 much faster!
 ## Installing Git
 Install form Git official website https://git-scm.com
