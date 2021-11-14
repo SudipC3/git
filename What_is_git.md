@@ -13,5 +13,25 @@ of overwriting another person’s changes.
 With Version Control, multiple people can work on their copy of
 the project (called branches) and only merge those changes to the
 main project when they (or the other team members) are satisfied with the work.
+## What is Github
+Brefly Github is a remote repo of your local version control
+system ( Git )
+## Git Commands
+Here some common git commands you should know
+### Initialize a new Git database
+     
+     git init
+
+### Adding username and email
+First you need to create an account on
+[Github](https://github.com)
+
+To add your username 
+
+     git config --global user.name "YourUserName"
+
+To add your email
+
+     git config --global user.mail "YourMail@example.com"
 
 
