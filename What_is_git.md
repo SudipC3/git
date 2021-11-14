@@ -19,9 +19,11 @@ system ( Git )
 ## Git Commands
 Here some common git commands you should know
 ### Initialize a new Git database
-     
+
      git init
 
+![](img/git1.png)
+  
 ### Adding username and email
 First you need to create an account on
 [Github](https://github.com)
@@ -34,4 +36,5 @@ To add your email
 
      git config --global user.mail "YourMail@example.com"
 
+![](img/git2.png)
 
