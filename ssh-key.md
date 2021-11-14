@@ -6,8 +6,11 @@ You can link git and github through ssh server.
 First you need to generate RSA Key Pair 
     
      ssh-keygen -t rsa -b 4096 -C "your-mail@example.com"
+Then Start SSH on background
 
-Then add ssh with your Git 
+     $ eval "$(ssh-agent -s)"
+
+Now add ssh with your Git 
 
      ssh-add ~/.ssh/id_rsa
 
