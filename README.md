@@ -4,6 +4,8 @@ much faster!
 This is a read me a besic concept of this project !!
 ## Installing Git
 Install form Git official website https://git-scm.com
+<br>
+How ton install [Git](install.md)
 ## Making A Github Account
 You need a [Github](https://github.com) remote server for your projects.
 ## Topic
