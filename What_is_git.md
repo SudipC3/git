@@ -33,6 +33,6 @@ To add your username
 
 To add your email
 
-     git config --global user.mail "YourMail@example.com"
+     git config --global user.email "YourMail@example.com"
 
 
