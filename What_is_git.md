@@ -13,9 +13,8 @@ of overwriting another person’s changes.
 With Version Control, multiple people can work on their copy of
 the project (called branches) and only merge those changes to the
 main project when they (or the other team members) are satisfied with the work.
-## What is Github
-Brefly Github is a remote repo of your local version control
-system ( Git )
+## Why  Github
+Why Git? It’s an online database that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based. Also unlike Git, GitHub is a for-profit service (although basic repository-hosting features are available at no cost to those who are willing to create a user profile, making GitHub a popular choice for open-source projects).
 ## Git Project Management System Setup
   1. First You need to download and install [Git]() on your PC
   2. You Need to create an account on [Github](https://github.com)
@@ -51,25 +50,4 @@ Here
 
 
        
-## Git Commands
-Here some common git commands you should know
-### Initialize a new Git database
-
-     git init
-
-![](img/git1.png)
-  
-### Adding username and email
-First you need to create an account on
-[Github](https://github.com)
-
-To add your username 
-
-     git config --global user.name "YourUserName"
-
-To add your email
-
-     git config --global user.mail "YourMail@example.com"
-
-![](img/git2.png)
 
