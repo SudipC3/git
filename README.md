@@ -17,7 +17,7 @@ Use " git clone " command
 + [How to add ssh key and ssh server in Github](ssh-key.md)
 
 ## Main Working Branch
-Checkout main working branch [dev2](https://github.com/github-explore/tree/dev2)
+> Checkout main working branch **dev2**
 
     
  ## Project Status 
