@@ -14,7 +14,9 @@ With Version Control, multiple people can work on their copy of
 the project (called branches) and only merge those changes to the
 main project when they (or the other team members) are satisfied with the work.
 ## Why  Github
-Why Git? It’s an online database that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based. Also unlike Git, GitHub is a for-profit service (although basic repository-hosting features are available at no cost to those who are willing to create a user profile, making GitHub a popular choice for open-source projects).
+Why Github? It’s an online database that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based. Also unlike Git, GitHub is a for-profit service (although basic repository-hosting features are available at no cost to those who are willing to create a user profile, making GitHub a popular choice for open-source projects).
+<br>
+[Learn More ...](https://github.com/features)
 ## Git Project Management System Setup
   1. First You need to download and install [Git]() on your PC
   2. You Need to create an account on [Github](https://github.com)

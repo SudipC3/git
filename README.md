@@ -13,6 +13,7 @@ You need a [Github](https://github.com) remote server for your projects.
 + [What is Git](What_is_git.md)
   * [How to set up Git project management system](What_is_git.md)
   * [How to link local and server](What_is_git.md)
++ [Start your project with Git](git.md)
 
 + [How to add ssh key and ssh server in Github](ssh-key.md)
 
