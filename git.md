@@ -142,5 +142,23 @@ Date:   Tue Nov 16 23:50:43 2021 +0000
     add README.md
 </pre>
 ### Adding Remote Repo
+First you need to make a remote repository in Github
+[How Can I Make A Github Repo](Github/make_github_repo.md)
+Adding git remote
+#### Over SSH
 
+          git remote add origin git@github.com:SudipC3/github-explore 
+
+#### Over Https
+
+
+          git remote add origin https://github.com/SudipC3/github-explore
+
+
+
+### Push Project To Remote Repo
+To push main branch on Github use *git push -u origin main*
+
+
+             git push -u origin main
 
