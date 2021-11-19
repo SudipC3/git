@@ -53,7 +53,8 @@ __plug__.py  rdms.vim  README.md  vim.txt
 > The Commite : In Git, a commite is a snapshot of your repo at specific
 point of time.
 <br>
-<br>
+
+
 > The Staging Area: Staging area is " files that are going to be a part of the next commite"
 ### Project Status
 How to know which files are into staging area and my project status ?
