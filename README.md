@@ -16,6 +16,7 @@ You need a [Github](https://github.com) remote server for your projects.
 + [Start your project with Git](git.md)
 
 + [How to add ssh key and ssh server in Github](ssh-key.md)
++ [Working with branches](branch.md)
 
 ## Contributing
 Pull requests are Welcome. For major changes, Please open

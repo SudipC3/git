@@ -162,3 +162,19 @@ To push main branch on Github use *git push -u origin main*
 
              git push -u origin main
 
+<pre>
+Enter passphrase for key '/root/.ssh/id_rsa': 
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 31.52 KiB | 6.30 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:SudipC3/github-explore
+   e3c7248..d2faf1b  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+</pre>
+Well done you  you are successfully save your work in Github remote repo.
+
