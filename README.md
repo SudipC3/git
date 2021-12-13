@@ -1,4 +1,4 @@
-# github-explore
+# Git For Developers
 Beginners Welcome ! Thes repo helps You to learn Git and Github
 much faster!
 ## Installing Git
