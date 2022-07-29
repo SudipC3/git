@@ -72,7 +72,43 @@ git log origin/branch_name
 ```
 git log origin/master
 ```
+```
+git log --oneline
+```
 
++ ## 13. git commit message undo
+```
+git commit -m "new fixed commit message"
+```
++ ## 14. reset commit
+```
+git reset hash_of_commit
+```
+```
+git reset 9a9add8
+```
++ ## 15. reaverting a commit and write as a new commit
+```
+git revert HEAD ~ x 
+```
+> x being a number. 1 going back one more
+```
+git revert HEAD ~ 1
+```
++ ## 16. merge branch
+```
+git merge marge_branch_name
+```
+```
+git merge dev2
+```
++ ## 17. delete local branch
+```
+git branch -d branch_name
+```
+```
+git branch -d dev2a
+```
 ---------------------------------------------------------
 # git: Advanced
 > ## 1. add a ssh-key
