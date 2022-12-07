@@ -3,69 +3,123 @@
 ``` 
 git init
 ```
-+ ## 2. add usermane and email to git
++ ## 2. add username and email
 ```
-git config --global user.name "your_user_name"
+git config --global user.name <your_user_name>
 ```
 ```
 git config --global user.name "SudipC3"
 ```
 ```
-git config --global user.email "your_mail"
+git config --global user.email <your_mail>
 ```
 ```
 git config --global user.email "s********@pm.me"
 ```
-+ ## 3. clone a repo
++ ## 3. clone a remote repo
 ```
-git clone repo_url
+git clone <repo_url>
 ```
 ```
-git clone https://github.com/sadhukhanr/papae
+git clone https://github.com/cx0y/kex.git
 ```
-# project
-+ ## 4. create branch
+>>> ### ssh
 ```
-git checkout -b branch_name
+git clone git@github.com:cx0y/xlbr.git
+```
+
++ ## 4 git remote
+>> ### view origin
+```
+git remote -v
+```
+>> ### add origin
+```
+git remote add origin <url>
+```
+>> ### change origin
+```
+git remote set-url origin <url>
+```
+
+# projects
++ ## 5. create branch
+```
+git checkout -b <branch_name>
 ```
 ```
 git checkout -b dev2
 ```
-+ ## 5. check branch
++ ## 6. check branch
 ```
 git branch -a
 ```
-+ ## 6. delete a remote branch
++ ## 7. change branch
 ```
-git push origin --delete remote_branch_name
+git checkout <branch_name>
+```
+```
+git checkout dev2
+```
++ ## 8. delete a remote branch
+```
+git push origin --delete <remote_branch_name>
 ```
 ```
 git push origin --delete dev2
 ```
-+ ## 7. check git tracks
++ ## 9. check git tracks
 ```
 git status
 ```
-+ ## 8. add all files on git track
+```
+git diff
+```
+```
+git diff --stat
+```
++ ## 10. add all files
 ```
 git add .
 ```
-+ ## 9. make a commit
++ ## 11. make a commit
 ```
-git commit -m "your message"
+git commit -m <your message>
 ```
 ```
-git commit -m "rsadhukhan: update"
+git commit -m "update"
 ```
-+ ## 10. push git remote repo
++ ## 12. push commit
 ```
-git push
+git push <remote> <branch>
 ```
-+ ## 11. update remote repo to local
 ```
-git pull
+git push origin main
 ```
-+ ## 12. ckeck git log
+>> ### force push
+```
+git push --force
+```
+```
+git push -f <remote (origin)> <branch(master)>
+```
+```
+git push origin <branch_name(master)> --force
+```
+```
+git push --force-with-lease
+```
++ ## 13. update local branch
+```
+git fetch <remotename>
+```
+```
+git pull origin <my_default_branch_name>
+```
++ ## 14. log
+```
+git log
+```
 ```
 git log origin/branch_name
 ```
@@ -75,19 +129,28 @@ git log origin/master
 ```
 git log --oneline
 ```
+>> ### checkout log
+```
+git checkout <hash_of_commit>
+```
+```
+git checkout c3d88eaa1aa4e4d5f
+```
 
-+ ## 13. git commit message undo
++ ## 15. git commit message undo
+
 ```
-git commit -m "new fixed commit message"
+git commit --amend -m <new_commit_message>
 ```
-+ ## 14. reset commit
++ ## 16. reset commit
+
 ```
-git reset hash_of_commit
+git reset <hash_of_commit>
 ```
 ```
 git reset 9a9add8
 ```
-+ ## 15. reaverting a commit and write as a new commit
++ ## 17. reaverting a commit and write as a new commit
 ```
 git revert HEAD ~ x 
 ```
@@ -95,22 +158,26 @@ git revert HEAD ~ x
 ```
 git revert HEAD ~ 1
 ```
-+ ## 16. merge branch
++ ## 18. merge branch
 ```
-git merge marge_branch_name
+git merge <marge_branch_name>
 ```
 ```
 git merge dev2
 ```
-+ ## 17. delete local branch
++ ## 19. delete local branch
 ```
-git branch -d branch_name
+git branch -d <branch_name>
 ```
 ```
 git branch -d dev2a
 ```
++ ## 20. rebase
+```
+git rebase -i HEAD~x
+```
 ---------------------------------------------------------
-# git: Advanced
+# git ~ advanced
 > ## 1. add a ssh-key
 >> ### generate RSA key pair
 ```
@@ -141,5 +208,32 @@ Hi YourUserName! You've successfully authenticated, but GitHub does not provide 
 ```
 
 
+---------------------------------------------------------
 
+```
+MIT License
 
+Copyright (c) 2021 Sudip Bakuli (SudipC3), wiz (cx0y), level up (levelupdefy)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+-------------------------------------------------------------------
+
+| [RAW](https://raw.githubusercontent.com/levelupdefy/git/master/README.md) | [GITHUB](https://github.com/levelupdefy/git) | [WEB](https://levelupdefy.github.io/git/)|
