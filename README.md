@@ -1,3 +1,4 @@
+⚠️ This repository is not maintaining by us, check <https://github.com/cx0y/git>
 # git
 + ## 1. add git to a project
 ``` 
