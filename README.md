@@ -1,10 +1,9 @@
-⚠️ This repository is not maintaining by us, check <https://github.com/cx0y/git>
-# git
-+ ## 1. add git to a project
+# Git
++ ## 1. Add git to a project
 ``` 
 git init
 ```
-+ ## 2. add username and email
++ ## 2. Add username and email
 ```
 git config --global user.name <your_user_name>
 ```
@@ -17,7 +16,7 @@ git config --global user.email <your_mail>
 ```
 git config --global user.email "s********@pm.me"
 ```
-+ ## 3. clone a remote repo
++ ## 3. Clone a remote repo
 ```
 git clone <repo_url>
 ```
@@ -29,7 +28,7 @@ git clone https://github.com/cx0y/kex.git
 git clone git@github.com:cx0y/xlbr.git
 ```
 
-+ ## 4 git remote
++ ## 4 Git remote
 >> ### view origin
 ```
 git remote -v
@@ -44,32 +43,32 @@ git remote set-url origin <url>
 ```
 
 # projects
-+ ## 5. create branch
++ ## 5. Create branch
 ```
 git checkout -b <branch_name>
 ```
 ```
 git checkout -b dev2
 ```
-+ ## 6. check branch
++ ## 6. Check branch
 ```
 git branch -a
 ```
-+ ## 7. change branch
++ ## 7. Change branch
 ```
 git checkout <branch_name>
 ```
 ```
 git checkout dev2
 ```
-+ ## 8. delete a remote branch
++ ## 8. Delete a remote branch
 ```
 git push origin --delete <remote_branch_name>
 ```
 ```
 git push origin --delete dev2
 ```
-+ ## 9. check git tracks
++ ## 9. Check git tracks
 ```
 git status
 ```
@@ -79,18 +78,18 @@ git diff
 ```
 git diff --stat
 ```
-+ ## 10. add all files
++ ## 10. Add all files
 ```
 git add .
 ```
-+ ## 11. make a commit
++ ## 11. Make a commit
 ```
 git commit -m <your message>
 ```
 ```
 git commit -m "update"
 ```
-+ ## 12. push commit
++ ## 12. Push commit
 ```
 git push <remote> <branch>
 ```
@@ -110,14 +109,14 @@ git push origin <branch_name(master)> --force
 ```
 git push --force-with-lease
 ```
-+ ## 13. update local branch
++ ## 13. Update local branch
 ```
 git fetch <remotename>
 ```
 ```
 git pull origin <my_default_branch_name>
 ```
-+ ## 14. log
++ ## 14. Log
 ```
 git log
 ```
@@ -138,12 +137,12 @@ git checkout <hash_of_commit>
 git checkout c3d88eaa1aa4e4d5f
 ```
 
-+ ## 15. git commit message undo
++ ## 15. Git commit message undo
 
 ```
 git commit --amend -m <new_commit_message>
 ```
-+ ## 16. reset commit
++ ## 16. Reset commit
 
 ```
 git reset <hash_of_commit>
@@ -151,7 +150,7 @@ git reset <hash_of_commit>
 ```
 git reset 9a9add8
 ```
-+ ## 17. reaverting a commit and write as a new commit
++ ## 17. Reaverting a commit and write as a new commit
 ```
 git revert HEAD ~ x 
 ```
@@ -159,27 +158,27 @@ git revert HEAD ~ x
 ```
 git revert HEAD ~ 1
 ```
-+ ## 18. merge branch
++ ## 18. Merge branch
 ```
 git merge <marge_branch_name>
 ```
 ```
 git merge dev2
 ```
-+ ## 19. delete local branch
++ ## 19. Delete local branch
 ```
 git branch -d <branch_name>
 ```
 ```
 git branch -d dev2a
 ```
-+ ## 20. rebase
++ ## 20. Rebase
 ```
 git rebase -i HEAD~x
 ```
 ---------------------------------------------------------
-# git ~ advanced
-> ## 1. add a ssh-key
+# Git (Advanced)
+> ## 1. Add a ssh-key
 >> ### generate RSA key pair
 ```
 ssh-keygen -t rsa -b 4096 -C "your-mail@example.com"
@@ -214,7 +213,7 @@ Hi YourUserName! You've successfully authenticated, but GitHub does not provide 
 ```
 MIT License
 
-Copyright (c) 2021 Sudip Bakuli (SudipC3), wiz (cx0y), level up (levelupdefy)
+Copyright (c) 2021 rs (cx0y), Sudip Bakuli (SudipC3), 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -237,4 +236,3 @@ SOFTWARE.
 
 -------------------------------------------------------------------
 
-| [RAW](https://raw.githubusercontent.com/levelupdefy/git/master/README.md) | [GITHUB](https://github.com/levelupdefy/git) | [WEB](https://levelupdefy.github.io/git/)|
