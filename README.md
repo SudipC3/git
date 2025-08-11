@@ -41,6 +41,10 @@ git remote add origin <url>
 ```
 git remote set-url origin <url>
 ```
+>> ### remove origin
+```
+git remote remove origin
+```
 
 # projects
 + ## 5. Create branch
