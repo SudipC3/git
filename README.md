@@ -138,8 +138,10 @@ git log --oneline
 git checkout <hash_of_commit>
 ```
 ```
-git checkout c3d88eaa1aa4e4d5f
+git checkout -b <new_branch_name> <c3d88eaa1aa4e4d5f_hash>
 ```
+
+(best way to be trouble free, when chacking previous updates)
 
 + ## 15. Git commit message undo
 
