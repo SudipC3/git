@@ -21,8 +21,9 @@ git config --global user.email "s********@pm.me"
 git clone <repo_url>
 ```
 ```
-git clone https://github.com/cx0y/kex.git
+git clone --single-branch --branch <branch-name> <repository-url>
 ```
+
 >>> ### ssh
 ```
 git clone git@github.com:cx0y/xlbr.git
